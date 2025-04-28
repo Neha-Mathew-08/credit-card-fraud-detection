@@ -6,7 +6,7 @@ This project aims to build a machine learning model to detect fraudulent credit 
 
 📊 Dataset
 
-Source: Kaggle - Credit Card Fraud Detection Dataset
+Source: Kaggle - Credit Card Fraud Detection Dataset [http://kaggle.com/datasets/mlg-ulb/creditcardfraud?resource=download]
 
 Records: 284,807 transactions
 
