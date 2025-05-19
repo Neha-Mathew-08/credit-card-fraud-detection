@@ -13,6 +13,9 @@ Records: 284,807 transactions
 Features:
 30 anonymized features (V1, V2, ..., V28)
 
+Note on Features:
+The dataset includes 28 anonymized PCA features (V1–V28) preprocessed via dimensionality reduction. These features are used directly without scaling, while only ‘Time’ and ‘Amount’ are scaled to normalize their range. This ensures the model leverages the full signal contained in these transformed components for effective fraud detection.
+
 Time: Time of transaction in seconds since the first transaction
 Amount: Amount of the transaction
 Class: Target variable, 1 for fraud and 0 for legitimate transactions
