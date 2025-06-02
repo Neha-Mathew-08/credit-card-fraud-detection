@@ -1,16 +1,16 @@
-Real-Time Credit Card Fraud Detection Using Machine Learning
+## Real-Time Credit Card Fraud Detection Using Machine Learning
 
-🎖️ Project Overview
+**Project Overview**
 
 This project aims to build a machine learning model to detect fraudulent credit card transactions in real-time. By leveraging various supervised learning techniques, including ensemble models and anomaly detection methods, this system can effectively identify fraudulent behavior, which is critical for minimizing financial losses in the credit card industry.
 
-📊 Dataset
+**Dataset**
 
 Source: Kaggle - Credit Card Fraud Detection Dataset [http://kaggle.com/datasets/mlg-ulb/creditcardfraud?resource=download]
 
 Records: 284,807 transactions
 
-Features:
+**Features:**
 30 anonymized features (V1, V2, ..., V28)
 
 Note on Features:
@@ -22,7 +22,7 @@ Class: Target variable, 1 for fraud and 0 for legitimate transactions
 
 This dataset is highly imbalanced with fraud transactions making up less than 1% of the total dataset, making it a good example for handling class imbalance.
 
-🛠️ Technologies Used
+**Technologies Used**
 
 Python Libraries: Pandas, NumPy
 
@@ -34,7 +34,7 @@ SHAP (for model interpretability)
 
 Matplotlib, Seaborn (for visualizations)
 
-🛠️ Development Tools:
+**Development Tools:**
 
 Jupyter Notebooks for experimentation
 
@@ -42,7 +42,7 @@ Git for version control
 
 GitHub for project collaboration
 
-📈 Key Steps
+**Key Steps**
 
 1. Exploratory Data Analysis (EDA)
 Visualized distribution of fraudulent vs non-fraudulent transactions.
@@ -66,7 +66,7 @@ Focused on maximizing recall to ensure frauds are detected early.
 6. Model Explainability
 Used SHAP to interpret model predictions and understand which features contributed most to fraud detection.
 
-🏆 Results
+**Results**
 
 ROC-AUC Score: 0.98 (indicating excellent model performance).
 
@@ -76,25 +76,6 @@ Precision: 98% (ensuring that flagged transactions are likely fraud).
 The model demonstrates high accuracy in detecting fraud, ensuring that it is reliable for use in real-world financial systems.
 
 
-🧹 Future Improvements
-
-Implement real-time fraud detection with streaming data (e.g., Kafka).
-
-Deploy the trained model as an API using FastAPI or Flask for real-time use.
-
-Experiment with deep learning models such as Autoencoders for anomaly detection.
-
-Test the model on additional datasets to improve generalization.
-
-⚡ How to Run the Project
-
-1. Clone this repository:
-   git clone https://github.com/Neha-Mathew-08/credit-card-fraud-detection.git
-
-   cd credit-card-fraud-detection
-
-3. Install the dependencies:
-   pip install -r requirements.txt
 
 
 
